@@ -12,7 +12,7 @@ const Header = () => {
 
         <div className='headerlinks'>
           <a href={Resume} download><p>Download CV</p></a>
-          <a href='#'><p>Let's Talk</p></a>
+          <a href='#contactme'><p>Let's Talk</p></a>
         </div>
       </div>
       {/* <video className='vid' src={videoBg} autoPlay loop muted /> */}
