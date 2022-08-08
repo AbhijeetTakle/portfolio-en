@@ -1,0 +1,67 @@
+.header {
+    width: 100%;
+    height: calc(100vh - 8vh - 22vh);
+    margin-top: 50px;
+}
+
+.overlays {
+        color: rgb(166, 204, 238);
+        position: absolute;
+        width: 100%;
+        height: 60%;
+        background-color: rgba(0, 0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2vw;
+}
+
+.overlays>h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.overlays>h3 {
+    font-weight: 300;
+}
+
+.overlays > h1 > span {
+    color: rgb(235, 47, 5);
+}
+
+.overlays>h3>span {
+    color: rgb(235, 47, 5);
+    font-weight: 600;
+}
+
+.headerlinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+    gap: 10%;
+}
+
+.headerlinks>a {
+    font-weight: 600;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    background-color: rgb(176, 165, 0);
+}
+
+.headerlinks > a:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(184, 174, 38);
+    transition: all 400ms ease;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .headerlinks {
+        justify-content:left;
+    }
+
+}

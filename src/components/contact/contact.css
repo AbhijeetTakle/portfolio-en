@@ -1,0 +1,74 @@
+.contact {
+    height: auto;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(227, 220, 32);
+}
+
+.contact>h3 {
+    font-size: 2rem;
+}
+.contact >div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding: 1rem;
+}
+input {
+    height: 3rem;
+    background-color: rgb(35, 35, 35);
+    color: rgb(255, 252, 100);
+    padding: 0.3rem;
+    font-size: 1.3rem;
+}
+.name {
+    grid-column: 1;
+}
+.email {
+    grid-column: 2 / -1;
+}
+.sub {
+    grid-column: 1 / -1;
+}
+.mes {
+    grid-column: 1 / -1;
+}
+.subm {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: rgb(227, 220, 32);
+}
+
+@media screen and (max-width: 575px) {
+
+    form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+        .name {
+            grid-column: 1;
+        }
+    
+        .email {
+            grid-column: 1;
+        }
+    
+        .sub {
+            grid-column: 1;
+        }
+    
+        .mes {
+            grid-column: 1;
+        }
+
+}

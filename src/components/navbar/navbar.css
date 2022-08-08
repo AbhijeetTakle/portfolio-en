@@ -1,0 +1,51 @@
+.navbar {
+    color: aliceblue;
+    width: 60%;
+    height: 8vh;
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 4;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 3px;
+}
+.title>a>h1{
+    color: antiquewhite;
+}
+.title:hover{
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: font-size 400ms ease;
+}
+
+.links > a {
+    font-size: 2rem;
+}
+
+.links > a :hover {
+    color: antiquewhite;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.linkedin {
+    color: rgb(4, 151, 236);
+}
+
+.github {
+    color: rgb(152, 152, 152);
+}
+@media screen and (max-width: 1000px) {
+    .navbar {
+        width: 100%;
+    }
+}

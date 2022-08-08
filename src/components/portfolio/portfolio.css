@@ -1,0 +1,20 @@
+.portfolio {
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 4;
+    overflow-y: auto;
+}
+
+.portfolio::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .portfolio {
+        width: 100%;
+    }
+    
+}
