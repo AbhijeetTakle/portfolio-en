@@ -7,7 +7,7 @@ import { FaGithub } from 'react-icons/fa'
 const Project = (props) => {
   return (
     <div className='project'>
-        <img src={props.src} />
+        <img src={props.src} alt='img'/>
         <div className='description'>
             <p>Lorem ipsum dolor sit amet consectetu dolor sit amet consectetudolor sit amet consectetu.</p>
             <div className='project-links'>
