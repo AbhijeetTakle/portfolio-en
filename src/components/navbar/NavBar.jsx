@@ -9,8 +9,8 @@ const NavBar = () => {
             <a href="#root"><h1>Portfolio.</h1></a>
         </div>
         <div className='links'>
-            <a className='linkedin' href="https://in.linkedin.com/"><FaLinkedinIn/></a>
-            <a className='github' href="https://in.linkedin.com/"><FaGithub/></a>
+            <a className='linkedin' href="https://www.linkedin.com/in/abhijeet-takle-139b1b193/"><FaLinkedinIn/></a>
+            <a className='github' href="https://github.com/AbhijeetTakle"><FaGithub/></a>
         </div>
     </div>
   )
