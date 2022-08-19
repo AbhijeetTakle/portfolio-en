@@ -13,10 +13,10 @@ const Project = (props) => {
           sit amet consectetu.
         </p>
         <div className="project-links">
-          <a href={props.gitlink} target="_blank">
+          <a href={props.gitlink} target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a href={props.demolink} target="_blank">
+          <a href={props.demolink} target="_blank" rel="noreferrer">
             <BsFillEyeFill />
           </a>
         </div>
